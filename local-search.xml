@@ -4,6 +4,44 @@
   
   
   <entry>
+    <title>web结课作业-个人网站</title>
+    <link href="/2024/11/30/web%E7%BB%93%E8%AF%BE%E4%BD%9C%E4%B8%9A-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
+    <url>/2024/11/30/web%E7%BB%93%E8%AF%BE%E4%BD%9C%E4%B8%9A-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</url>
+    
+    <content type="html"><![CDATA[<p>计科12205 2022003074 王梓豪</p><h1 id="个人网站说明文档"><a href="#个人网站说明文档" class="headerlink" title="个人网站说明文档"></a>个人网站说明文档</h1><h2 id="一、项目概述"><a href="#一、项目概述" class="headerlink" title="一、项目概述"></a>一、项目概述</h2><p>本个人网站是<strong>Web课程结课作业</strong>的一部分，基于 <strong>GitHub Pages</strong> 技术构建的静态网站。网站采用了 <strong>Hexo 框架</strong> 进行快速生成，并应用了 <strong>Fluid 主题</strong> 进行样式设计与美化。网站的主要功能包括展示个人信息、文章发布以及友链管理，旨在为用户提供一个简洁美观的个人展示平台。</p><hr><h2 id="二、项目特点"><a href="#二、项目特点" class="headerlink" title="二、项目特点"></a>二、项目特点</h2><ol><li><p><strong>基于 GitHub Pages 部署</strong><br>网站完全基于 GitHub Pages 免费托管服务，无需购买服务器，实现了网站的低成本运行与长期稳定访问。</p></li><li><p><strong>静态网站架构</strong><br>网站采用静态 HTML 文件形式，加载速度快，无需后端支持，适合个人博客或展示性页面。</p></li><li><p><strong>Hexo 静态网站生成器</strong>  </p><ul><li>使用 Hexo 框架自动生成静态页面，简化了手动编码的复杂性。</li><li>配备高效的 Markdown 支持，方便快速撰写和发布内容。</li></ul></li><li><p><strong>Fluid 主题美化</strong>  </p><ul><li>Fluid 主题提供了简洁大气的设计风格，支持高度定制化的样式与功能。</li><li>网站内容包括首页、关于页面、归档、文章分类等模块。</li></ul></li></ol><hr><h2 id="三、技术栈"><a href="#三、技术栈" class="headerlink" title="三、技术栈"></a>三、技术栈</h2><ul><li><strong>前端技术</strong>：HTML5, CSS3, JavaScript  </li><li><strong>静态生成器</strong>：Hexo  </li><li><strong>主题</strong>：Fluid  </li><li><strong>托管服务</strong>：GitHub Pages  </li><li><strong>版本控制</strong>：Git</li></ul><hr><h2 id="四、功能说明"><a href="#四、功能说明" class="headerlink" title="四、功能说明"></a>四、功能说明</h2><ol><li><strong>首页</strong>  <ul><li>展示网站的整体概况，如欢迎标语和导航链接。</li></ul></li><li><strong>文章管理</strong>  <ul><li>支持 Markdown 格式撰写文章，方便内容创作与发布。</li><li>所有文章按照时间顺序归档，便于查阅。</li></ul></li><li><strong>关于页面</strong>  <ul><li>包含个人简介、联系方式以及相关背景信息。</li></ul></li><li><strong>友链管理</strong>  <ul><li>以清单形式展示个人网络资源及友链信息。</li></ul></li><li><strong>自适应布局</strong>  <ul><li>主题支持移动端和桌面端的自适应布局，提升访问体验。</li></ul></li></ol><hr><h2 id="五、项目结构"><a href="#五、项目结构" class="headerlink" title="五、项目结构"></a>五、项目结构</h2><p>项目目录结构说明：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">/themes/Fluid          <span class="hljs-comment"># 网站主题文件</span><br>/source/_posts         <span class="hljs-comment"># Markdown 格式的文章内容</span><br>/public                <span class="hljs-comment"># 静态页面生成输出文件</span><br>_config.yml            <span class="hljs-comment"># 网站全局配置文件</span><br>package.json           <span class="hljs-comment"># 项目依赖管理文件</span><br></code></pre></td></tr></table></figure><hr><h2 id="六、部署与使用说明"><a href="#六、部署与使用说明" class="headerlink" title="六、部署与使用说明"></a>六、部署与使用说明</h2><ol><li><p><strong>本地开发预览</strong><br>在本地安装所需依赖后，运行以下命令启动本地开发服务器：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo s<br></code></pre></td></tr></table></figure><p>浏览器访问 <code>http://localhost:4000</code> 即可预览网站。</p></li><li><p><strong>发布与部署</strong><br>修改或新增内容后，使用以下命令生成静态文件并部署到 GitHub Pages：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy<br></code></pre></td></tr></table></figure></li><li><p><strong>访问地址</strong><br>项目已成功部署在 GitHub Pages，访问以下链接查看网站：<br><strong><a href="https://musejournal.github.io/">https://musejournal.github.io</a></strong></p></li></ol><hr><h2 id="七、总结与反思"><a href="#七、总结与反思" class="headerlink" title="七、总结与反思"></a>七、总结与反思</h2><p>本项目的实现过程让我更加熟悉了静态网站开发与部署的流程，并深入了解了 GitHub Pages 与 Hexo 的实际应用场景。通过定制主题和优化内容，我学会了如何在技术限制下创造出实用、美观且高效的个人网站。未来，我将进一步完善网站的功能与内容，探索更多前端开发技术。</p><hr>]]></content>
+    
+    
+    <categories>
+      
+      <category>其他</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>其它</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>你的文章标题</title>
+    <link href="/2024/11/30/%E4%BD%A0%E7%9A%84%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/"/>
+    <url>/2024/11/30/%E4%BD%A0%E7%9A%84%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2024/11/19/hello-world/"/>
     <url>/2024/11/19/hello-world/</url>
